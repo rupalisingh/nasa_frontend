@@ -1,0 +1,69 @@
+{
+  "name": "net-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
+    "@mui/x-charts": "^7.18.0",
+    "@mui/x-data-grid": "^7.18.0",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.8",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.112",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.9.0",
+    "lucide-react": "^0.446.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.169.0",
+    "three-globe": "^2.31.3",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!axios)/'",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "axios-mock-adapter": "^2.0.0",
+    "jest-mock": "^29.7.0",
+    "tailwindcss": "^3.4.13"
+  }
+}
